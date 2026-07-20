@@ -1,0 +1,31 @@
+{
+  "name": "vettry-ebikes-premium-website",
+  "version": "1.0.0",
+  "description": "Premium responsive website for Vettry E-bikes - Ozotec Electric Vehicle Showroom",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "axios": "^1.4.0",
+    "swiper": "^10.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.25",
+    "autoprefixer": "^10.4.14",
+    "prettier": "^3.0.0",
+    "eslint": "^8.45.0"
+  }
+}
